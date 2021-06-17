@@ -1,0 +1,13 @@
+#GrandeGrid{
+    border: 1px solid black;
+   display: grid; 
+   grid-template-columns: 2fr 1fr 1fr;
+   grid-template-rows: 2fr 2fr 2fr;
+}
+
+.MediaGrid {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start:1 ;
+    grid-row-end:1;
+}
