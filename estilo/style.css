@@ -1,13 +1,19 @@
 #GrandeGrid{
     border: 1px solid black;
    display: grid; 
-   grid-template-columns: 2fr 1fr 1fr;
+   grid-template-columns: 2fr 2fr;
    grid-template-rows: 2fr 2fr 2fr;
+   width: 700px;
+   margin: 150px auto;
 }
 
 .MediaGrid {
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start:1 ;
-    grid-row-end:1;
+    grid-row-end:2;
+}
+
+.PequenaGrid{
+    background-color: hsl(179, 62%, 43%);
 }
