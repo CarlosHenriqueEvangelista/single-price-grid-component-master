@@ -17,7 +17,8 @@
     grid-row-start: 1;
     grid-column-end:3;
     grid-row-end: 1;
-    margin-bottom: 100px;
+    padding: 30px;
+    color: hsl(204, 43%, 80%) ;
 }
 
 #GridEsquerda {
@@ -42,4 +43,8 @@ h1 {
 
 h2 {
     color: hsl(71, 73%, 54%) ;
+}
+
+h3 {
+    font-weight: bold;
 }
