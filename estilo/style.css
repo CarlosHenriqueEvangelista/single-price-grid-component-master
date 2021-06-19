@@ -97,7 +97,7 @@ span {
        width: 350px;
     }
     #GridEsquerda {
-        ;
+        border-radius: 0%;
     }
 
 }
