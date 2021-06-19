@@ -27,6 +27,7 @@
     border-radius: 0px 0px 0px 10px;
     color: white;
     font-family: 'Karla', sans-serif;
+    padding: 50px;
 }
 
 #GridDireita {
@@ -35,6 +36,7 @@
     border-radius: 0px 0px 10px 0px;
     color: white;
     font-family: 'Karla', sans-serif;
+    padding: 50px;
 }
 
 h1 {
@@ -46,5 +48,22 @@ h2 {
 }
 
 h3 {
+    font-weight: bold;
+}
+
+span {
+    font-size: 30px;
+    font-weight: bolder;
+    padding-right: 10px;
+}
+
+p {
+    font-weight: bold;
+}
+
+#Botão {
+    background-color: hsl(71, 73%, 54%);
+    padding: 10px 40px 10px 40px;
+    font-size: 20px;
     font-weight: bold;
 }
